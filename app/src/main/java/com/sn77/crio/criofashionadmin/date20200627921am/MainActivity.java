@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
 
         DatabaseReference productPushKey=databaseReference.push();
         String pushKey=productPushKey.getKey();
-
+//onk gulo item aksathe database a push korar jonne Hashmap use kora hoi
         HashMap<String,String> productHashMap=new HashMap<>();
         productHashMap.put("name",nameProduct);
         productHashMap.put("price",priceProduct);
